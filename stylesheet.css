@@ -1,0 +1,192 @@
+/* Reset CSS (DO NOT DELETE) */
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p,
+form, input, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Calibri";
+  background-image: url('wallbg.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+a:link {
+  text-decoration: none;
+  color:white
+}
+
+a:visited{
+  text-decoration: none;
+  color:white
+}
+
+li {
+  list-style: none;
+}
+
+.header {
+  background-color: #00d9ffe7;
+  color: #fff;
+  height: 120px;
+}
+
+.header-logo{
+  font-family: "Cheri";
+  float:left;
+  color: rgb(0, 2, 100);
+  font-size: 500%;
+  padding: 20px 40px;
+}
+
+.header-logo span{
+  color: white;
+}
+
+
+.header-list{
+  float:right;
+  font-size: 160%;
+}
+
+.header-list li {
+  float: left;
+  font-family: "Cheri" ;
+  padding: 50px 20px;
+}
+
+.main{
+  padding:50px 80px;
+}
+
+.copy-container h1{
+  font-size:100px;
+}
+
+.copy-container h2{
+  font-size:60px;
+}
+
+.copy-container span {
+  font-family: "Cheri";
+  color: #ff0015;
+}
+
+.contents{
+  height:500px;
+  margin-top:50px;
+}
+
+.section-title{
+  font-size:28px;
+  border-bottom:5px solid #0994df;
+  padding-bottom:10px;
+  margin-bottom:50px;
+}
+
+.contents-item{
+  float:left;
+  width:20%;
+}
+
+.contents-item p{
+  margin-top:20px;
+  font-size:30px;
+  color: #026092;
+  font-family: "Bahnschrift";
+  padding-bottom: 100px;
+  font-weight: bold;
+  float: inline-end;
+}
+
+.contents-item img{
+  width: 250px; 
+  height: 250px;
+}
+
+.contents-itempage t{
+  color:rgb(105, 1, 1);
+}
+
+.contents-itempage img{
+  border: 5px solid rgb(0, 124, 173);
+  border-radius: 16px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 400px; 
+  height: 400px;
+}
+
+.contents-itempage p{
+  text-align: center;
+  margin-top:10px;
+  font-size:35px;
+  color: #01273b;
+  font-family: "Aharoni";
+  font-weight: bold;
+  float: inline-end;
+}
+
+.button-container{
+  border-top:5px solid #0994df;
+  text-align: center;
+  margin-top: 2%;
+}
+.button{
+  background-color: #06740a; /* Green */
+  border: black;
+  border-radius: 8px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 20px 2px;
+  cursor: pointer;  
+}
+
+.button:hover {
+  background-color: #004e03; /* Green */
+  color: white;
+}
+
+
+
+.footer {
+  background-color: #2f5167a8;
+  color: #fff;
+  height: 60px;
+  margin-top: 100px;
+  padding: 20px;
+}
+.footer-other{
+  background-color: #2f5167a8;
+  color: #fff;
+  height: 60px;
+  margin-top: 15%;
+  padding: 20px;
+}
+
+
+.footer-logo {
+  float: left;
+  font-family: "Cheri" ;
+  font-size: 240%;
+}
+
+.footer-list {
+  float: right;
+}
+
+.footer-list li {
+  float: left;
+  font-family: "Cheri" ;
+  font-size: 150%;
+  padding: 10px 20px;
+}
